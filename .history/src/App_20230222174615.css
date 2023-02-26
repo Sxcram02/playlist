@@ -1,0 +1,35 @@
+* {
+    background-color: #e5e5e5;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.component {
+    background-color: white;
+    width: 50%;
+    max-width: 600px;
+    margin: 1%;
+    padding-bottom: 2em;
+    border: 0.1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.musicCover {
+    border-radius: 10%;
+    clip-path: circle();
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.subTitle {
+    margin-top: -1em;
+}
